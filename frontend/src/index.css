@@ -1,0 +1,46 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* styles/globals.css or any other global stylesheet */
+
+/* styles/globals.css or any other global stylesheet */
+
+/* Dark mode styles */
+[data-theme='dark'] .ql-container {
+  background-color: #262525 !important;
+}
+
+[data-theme='dark'] .ql-editor {
+  color: #e5e5e5 !important;
+  background-color: #262525 !important; /* Ensure the editor background matches */
+}
+
+/* Light mode styles */
+[data-theme='light'] .ql-container {
+  background-color: #ffffff !important;
+}
+
+[data-theme='light'] .ql-editor {
+  color: #000000 !important;
+  background-color: #ffffff !important; /* Ensure the editor background matches */
+}
+
+
+
+
